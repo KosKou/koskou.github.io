@@ -7,7 +7,7 @@ let experienceList = [
         "Responsible for the development and technical management of banking functionalities.\n" +
         "Reactive Java Backend Developer using Spring Boot & RxJava2, Swagger documentation, Redis, MongoDB, SQL Server on a microservices architecture applying BDD & TDD process with JUnit4 & Mockito to test layer."},
     {img: "https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_100_100/0?e=1603929600&v=beta&t=5vZO-01gsrYkb4-avt0hMN-WAiemJ3CaYTNXMK313_w",
-    jobTitle: "Software Application Developer", startDate: 201904, endDate: 201908, enterprise: "IBM", current: false,
+    jobTitle: "Software Application Developer", startDate: 201904, endDate: 202002, enterprise: "IBM", current: false,
     resume: "Technical Specialists. Expertise in translating IT requirements in the design, development, and assembly of components to create custom information systems. Typical examples of the deliverables are functional and technical designs, models, components, code, unit tests, and documentation at IBM Perú Innovation Team.\n" +
         "Also developing custom bots with Automation Anywhere RPA tool to automate servers delivery process tasks."},
     {img: "https://media-exp1.licdn.com/dms/image/C560BAQFd5H1wbka7Ow/company-logo_100_100/0?e=1603929600&v=beta&t=NbUVQeygJzKAMdGaIzHrg_G03K2QRvOSsypxSxn8Huw",
@@ -38,12 +38,32 @@ function getCustomDate(date) {
     }
 }
 
+function getMonthsDifference(startDate, endDate) {
+    //Getting string dates
+    let startDateString = String(startDate);
+    let endDateString = String(endDate);
+    //Getting yearValues
+    let startYear = startDateString.substr(0, 4);
+    let endYear = endDateString.substr(0, 4);
+    //Getting Months
+    let startMonth = startDateString.substr(4, 2);
+    let endMonth = endDateString.substr(4, 2);
+    //Getting Dates
+    let startDatum = new Date(parseInt(startYear),parseInt(startMonth));
+    let endDatum = new Date(parseInt(endYear),parseInt(endMonth));
+    //Calculate Months
+    let monthsDifference = (endDatum.getTime() - startDatum.getTime()) / 1000;
+    monthsDifference /= (60 * 60 * 24 * 7 * 4);
+    return Math.abs(Math.round(monthsDifference));
+}
+
 function getTime (startDate, endDate, current) {
     let today = new Date();
+    console.log("Start: "+startDate," End: "+endDate," current: "+current);
     //Getting months
     let monthsQuantity;
     if (!current) {
-        monthsQuantity = endDate - startDate;
+        monthsQuantity = getMonthsDifference(startDate, endDate);
     } else {
         let year = today.getFullYear();
         let month = today.getMonth() + 1;
@@ -51,10 +71,10 @@ function getTime (startDate, endDate, current) {
             month = "0" + month;
         }
         let date = String(year) + month;
-        let startMonth = parseInt(date);
-        monthsQuantity = startMonth - startDate;
+        let endDatum = parseInt(date);
+        monthsQuantity = getMonthsDifference(startDate, endDatum);
+        monthsQuantity++;
     }
-    monthsQuantity++;
     //Getting time
     let timeString = ""
     if (monthsQuantity > 12){
