@@ -32,7 +32,7 @@ class Home extends Component{
                 phoneNumber={51994486755}
                 popUpMessage={"Hey There, how can i help u?"}
                 defaultMessage={"I want more information"}
-                placeHolder={"Message us"}/>
+                placeHolder={"Message me"}/>
                 <Footer/>
             </>
         );

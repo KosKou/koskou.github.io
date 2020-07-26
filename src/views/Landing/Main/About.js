@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {ABOUT_TEXT} from "../../../assets/constants";
-import ProfilePic from "../../../assets/img/BackOffice.jpeg";
+import ProfilePic from "../../../assets/img/BannerPic.jpg";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 class About extends Component{
