@@ -1,19 +1,24 @@
+import Camposol from "./img/experience/camposol.png"
+import SacoOliveros from "./img/experience/sacoliveros.png"
+import IBM from "./img/experience/ibm.png"
+import Everis from "./img/experience/everis.jpg"
+
 
 let experienceList = [
-    {img: "https://media-exp1.licdn.com/dms/image/C4E0BAQFjO-V14FMzjg/company-logo_100_100/0?e=1603929600&v=beta&t=7QXU762m5Q7aZ0nf0mr9RXBH7xkqYWwwFZv2NRRPpUk",
+    {img: Everis,
     jobTitle: "Java Software Engineer", startDate: 202002, endDate: "current", enterprise: "Everis Perú", current: true,
-    resume: "Solutions Assistant Java Backend Developer\n" +
+    resume: "Java Software Engineer\n" +
         "Technical Specialist at Home Banking BCP project.\n" +
         "Responsible for the development and technical management of banking functionalities.\n" +
-        "Reactive Java Backend Developer using Spring Boot & RxJava2, Swagger documentation, Redis, MongoDB, SQL Server on a microservices architecture applying BDD & TDD process with JUnit4 & Mockito to test layer."},
-    {img: "https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_100_100/0?e=1603929600&v=beta&t=5vZO-01gsrYkb4-avt0hMN-WAiemJ3CaYTNXMK313_w",
+        "Team leader that develops reactive Java Backend applications using Spring Boot & RxJava2, Swagger documentation, Redis, MongoDB, SQL Server on a microservices architecture applying BDD & TDD patterns with JUnit5 & Mockito to test applications."},
+    {img: IBM,
     jobTitle: "Software Application Developer", startDate: 201904, endDate: 202002, enterprise: "IBM", current: false,
     resume: "Technical Specialists. Expertise in translating IT requirements in the design, development, and assembly of components to create custom information systems. Typical examples of the deliverables are functional and technical designs, models, components, code, unit tests, and documentation at IBM Perú Innovation Team.\n" +
         "Also developing custom bots with Automation Anywhere RPA tool to automate servers delivery process tasks."},
-    {img: "https://media-exp1.licdn.com/dms/image/C560BAQFd5H1wbka7Ow/company-logo_100_100/0?e=1603929600&v=beta&t=NbUVQeygJzKAMdGaIzHrg_G03K2QRvOSsypxSxn8Huw",
+    {img: SacoOliveros,
     jobTitle: "Software Application Developer", startDate: 201705, endDate: 201707, enterprise: "Saco Oliveros SAC", current: false,
     resume: "Designs, develops, tests and delivers offerings for Cognitive Systems using the latest technologies. Works in an Agile, collaborative environment to understand stakeholder requirements using technologies like Java EE, MVC pattern, custom front-end templates, Navicat, SQLServer and NetBeans IDE."},
-    {img: "https://media-exp1.licdn.com/dms/image/C4E0BAQEEKKMWRL-5XA/company-logo_100_100/0?e=1603929600&v=beta&t=UnWei7buMpJACd66wUqK0c9CfzmhBuFkDNu7Hocufko",
+    {img: Camposol,
     jobTitle: "SAP ABAP/4 Developer", startDate: 201605, endDate: 201611, enterprise: "Ebisu" +
             " Consulting(Camposol,Glencore,Volcan)", current: false,
     resume: "-Atención de Requerimientos de Negocio de Volcan S.A.C, Glencore S.A y Camposol S.A\n" +

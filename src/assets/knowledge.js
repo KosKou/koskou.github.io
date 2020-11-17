@@ -24,7 +24,7 @@ const knowledge = [
     { img: DatabaseSQL, title: 'SQL', description:"DDL and DML commands with relational" +
             " databases as DB2, Oracle, SQL Server and PostgresDB."},
     { img: MongoDB, title: 'NoSQL', description:"Non-relational mongo database knowledge with" +
-            " basic administration commands functions."},
+            " basic administration commands functions and cloud DB's as CosmosDB."},
     { img: GIT, title: 'Version Control', description:"Version control knowledge with Git using" +
             " repositories platforms like GitHub, GitLab and BitBucket. Integrated practices" +
             " with pair programming."},

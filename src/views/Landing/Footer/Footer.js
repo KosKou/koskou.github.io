@@ -118,7 +118,7 @@ class Footer extends Component{
                     </div>
                 </div>
                 <div className="footer-copyright text-center py-3">© 2020 Copyright:
-                    <a href="#intro" className="font-weight-bold"> Koskou</a>
+                    <a href="#intro" className="font-weight-bold"> Banner Gonzales</a>
                 </div>
             </footer>
         );
