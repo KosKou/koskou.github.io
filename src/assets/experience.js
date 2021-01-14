@@ -7,7 +7,7 @@ import Globant from "./img/experience/Globant.png"
 
 let experienceList = [
     {img: Globant,
-        jobTitle: "Java Software Engineer", startDate: 202101, endDate: "current", enterprise: "Everis" +
+        jobTitle: "Java Software Engineer", startDate: 202101, endDate: "current", enterprise: "Globant" +
             " Perú", current: true,
         resume: "Java Software Engineer\n" +
             "Technical Specialist at YAPE BCP project."},
