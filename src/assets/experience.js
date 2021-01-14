@@ -2,11 +2,18 @@ import Camposol from "./img/experience/camposol.png"
 import SacoOliveros from "./img/experience/sacoliveros.png"
 import IBM from "./img/experience/ibm.png"
 import Everis from "./img/experience/everis.jpg"
+import Globant from "./img/experience/Globant.png"
 
 
 let experienceList = [
+    {img: Globant,
+        jobTitle: "Java Software Engineer", startDate: 202101, endDate: "current", enterprise: "Everis" +
+            " Perú", current: true,
+        resume: "Java Software Engineer\n" +
+            "Technical Specialist at YAPE BCP project."},
     {img: Everis,
-    jobTitle: "Java Software Engineer", startDate: 202002, endDate: "current", enterprise: "Everis Perú", current: true,
+    jobTitle: "Java Software Engineer", startDate: 202002, endDate: 202101, enterprise: "Everis" +
+            " Perú", current: true,
     resume: "Java Software Engineer\n" +
         "Technical Specialist at Home Banking BCP project.\n" +
         "Responsible for the development and technical management of banking functionalities.\n" +
