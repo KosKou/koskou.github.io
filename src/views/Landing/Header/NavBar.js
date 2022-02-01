@@ -7,6 +7,7 @@ import {
     TWITTER_LINK,
     YOUTUBE_LINK
 } from "../../../assets/constants";
+import {Link} from "react-router-dom";
 
 class NavBar extends Component{
 
@@ -75,6 +76,11 @@ class NavBar extends Component{
                                 <a href={GITHUB_LINK} className="nav-link" target={"_blank"}
                                    rel="noopener noreferrer">
                                     <i className="fab fa-github fa-2x white-text"></i></a>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/ask" className="nav-link" target={"_blank"}>
+                                    <i className="fas fa-heart fa-2x green-text"></i>
+                                </Link>
                             </li>
                         </ul>
                     </div>
