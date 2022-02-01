@@ -6,7 +6,7 @@ import '../../../assets/css/mdb.min.css';
 // Custom Styles
 import '../../../assets/css/style.css';*/
 //Animated Css
-import '../MONTH1/love-letter.css';
+import './love-letter.css';
 import PICTURE from "../../../assets/img/pics/les-banner.jpeg"
 
 class ASK1 extends Component{

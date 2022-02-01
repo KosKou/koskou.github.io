@@ -6,6 +6,7 @@ import {
     TWITTER_LINK,
     YOUTUBE_LINK
 } from "../../../assets/constants";
+import {Link} from "react-router-dom";
 
 class Footer extends Component{
 
@@ -70,6 +71,7 @@ class Footer extends Component{
                                 <p>
                                     A win to win lookup.
                                 </p>
+                            <Link to="/ask">Preguntas y respuestas</Link>
                             <a href="https://koskou.github.io/rec-films/" target={"_blank"}
                                rel="noopener noreferrer">
                                 Check now Rec-Films Page
