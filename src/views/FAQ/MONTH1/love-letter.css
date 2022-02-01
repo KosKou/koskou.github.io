@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+/*#TODO: HAS TO REMOVE STYLES THAT AFFECTS THE ENTIRE BODY*/
 body {
     font-family: 'Varela Round', 'Quicksand', sans-serif;
     background-color: #800020;
