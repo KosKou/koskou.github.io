@@ -78,7 +78,7 @@ class NavBar extends Component{
                                     <i className="fab fa-github fa-2x white-text"></i></a>
                             </li>
                             <li className="nav-item">
-                                <Link to="/ask" className="nav-link" target={"_blank"}>
+                                <Link to="/ask" className="nav-link">
                                     <i className="fas fa-heart fa-2x green-text"></i>
                                 </Link>
                             </li>
