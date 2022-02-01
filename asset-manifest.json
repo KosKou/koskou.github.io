@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cc16be8.chunk.css",
-    "main.js": "/static/js/main.c1066970.chunk.js",
-    "main.js.map": "/static/js/main.c1066970.chunk.js.map",
+    "main.css": "/static/css/main.464545b8.chunk.css",
+    "main.js": "/static/js/main.6b0318a9.chunk.js",
+    "main.js.map": "/static/js/main.6b0318a9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d6ff568d.js",
     "runtime-main.js.map": "/static/js/runtime-main.d6ff568d.js.map",
-    "static/js/2.c04a886a.chunk.js": "/static/js/2.c04a886a.chunk.js",
-    "static/js/2.c04a886a.chunk.js.map": "/static/js/2.c04a886a.chunk.js.map",
+    "static/js/2.b665207f.chunk.js": "/static/js/2.b665207f.chunk.js",
+    "static/js/2.b665207f.chunk.js.map": "/static/js/2.b665207f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1d98b685a4a6d91e90f2ba72ca900e4c.js": "/precache-manifest.1d98b685a4a6d91e90f2ba72ca900e4c.js",
+    "precache-manifest.20b1fbe2943210cb8075f638534461b7.js": "/precache-manifest.20b1fbe2943210cb8075f638534461b7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5cc16be8.chunk.css.map": "/static/css/main.5cc16be8.chunk.css.map",
-    "static/js/2.c04a886a.chunk.js.LICENSE.txt": "/static/js/2.c04a886a.chunk.js.LICENSE.txt",
+    "static/css/main.464545b8.chunk.css.map": "/static/css/main.464545b8.chunk.css.map",
+    "static/js/2.b665207f.chunk.js.LICENSE.txt": "/static/js/2.b665207f.chunk.js.LICENSE.txt",
     "static/media/Agile.png": "/static/media/Agile.06f749f1.png",
     "static/media/Automation.png": "/static/media/Automation.e696625f.png",
     "static/media/BanneGonzalesWhite.png": "/static/media/BanneGonzalesWhite.6b89092b.png",
@@ -26,12 +26,13 @@
     "static/media/SAP.png": "/static/media/SAP.2dacd8d5.png",
     "static/media/mdb.min.css": "/static/media/arrow_right.8ef6a08c.svg",
     "static/media/camposol.png": "/static/media/camposol.2d5a318d.png",
+    "static/media/les-banner.jpeg": "/static/media/les-banner.d11874bd.jpeg",
     "static/media/sacoliveros.png": "/static/media/sacoliveros.4de3bbdc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d6ff568d.js",
-    "static/js/2.c04a886a.chunk.js",
-    "static/css/main.5cc16be8.chunk.css",
-    "static/js/main.c1066970.chunk.js"
+    "static/js/2.b665207f.chunk.js",
+    "static/css/main.464545b8.chunk.css",
+    "static/js/main.6b0318a9.chunk.js"
   ]
 }
