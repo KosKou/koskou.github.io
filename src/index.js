@@ -1,14 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 //If you want to deploy this to your github page repo commit and run "npm run deploy"
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
     <React.StrictMode>
         <App/>
     </React.StrictMode>,
-    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

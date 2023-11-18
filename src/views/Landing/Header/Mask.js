@@ -3,7 +3,7 @@ import Landscape from "../../../assets/img/Landscape.jpg"
 import LoopedText from "../../../components/LoopedText/LoopedText";
 import Resume from "../../../assets/files/EN-CV-BANNERGONZALES.pdf";
 
-class Mask extends Component{
+class Mask extends Component {
     render() {
         const landscapeImage = {
             background: "url("+Landscape+") no-repeat center center fixed"

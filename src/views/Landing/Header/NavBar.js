@@ -7,7 +7,7 @@ import {
     TWITTER_LINK,
     YOUTUBE_LINK
 } from "../../../assets/constants";
-import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 
 class NavBar extends Component{
 
@@ -16,7 +16,7 @@ class NavBar extends Component{
             <nav className={"navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"}>
                 <div className="container">
                     <a className="navbar-brand" href="#intro">
-                        <img src={Banner} alt="RecFilms" width="60px"/>
+                        <img src={Banner} alt="bannergz" width="60px"/>
                     </a>
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -76,11 +76,6 @@ class NavBar extends Component{
                                 <a href={GITHUB_LINK} className="nav-link" target={"_blank"}
                                    rel="noopener noreferrer">
                                     <i className="fab fa-github fa-2x white-text"></i></a>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/ask" className="nav-link">
-                                    <i className="fas fa-heart fa-2x green-text"></i>
-                                </Link>
                             </li>
                         </ul>
                     </div>
